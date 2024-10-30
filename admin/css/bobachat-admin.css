@@ -1,0 +1,155 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .klsf-body {
+    margin-top: 20px;
+ }
+ .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+.klsf-submit-btn {
+    background-color: #349887;
+    margin:auto;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.klsf-submit-txt {
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    margin:auto;
+}
+.klsf-submit {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.boba_alert_title{
+    color: #9d4a46;
+    font-weight: bold;
+}
+.boba_alert_description{
+    font-size: 16px;
+}
+
+.boba_login_card {
+    height: auto;
+    max-width: 448px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 32px;
+    margin: auto 0px;
+    padding-bottom: 32px;
+}
+
+
+.boba_signin_google {
+    background: #4A79F5;
+    width: 100%;
+    padding: 0px;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #4A79F5;
+    box-sizing: border-box;
+    box-shadow: 0px 0.6px 1.8px rgba(0, 0, 0, 0.1), 0px 3.2px 7.2px rgba(0, 0, 0, 0.13);
+    border-radius: 3px;
+}
+.boba_signin_btn_start{
+    display: flex;
+    margin: 16px auto;
+    justify-content: center;
+    height: 40px;
+    width: 320px;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    background: #5C5EB6;
+    box-shadow: 0px 4px 6px rgba(92, 94, 182, 0.15), 0px 6px 12px rgba(54, 123, 245, 0.08);
+    border-radius: 3px;
+}
+.boba_signin_form_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #5C5EB6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+.boba_signin_form_input{
+    width: 100%;
+    border: 1px solid #E3E5E5;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 40px;
+}
+.boba_signin_form_checkbox{
+    height: 16px;
+    width: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.boba_signin_form_policy{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #605E5C;
+}
+.boba_signin_form_navigate{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #201F1E;
+    flex: none;
+    order: 11;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.boba_siginup_modal{
+    display: flex  !important;
+}
+.boba_hide_siginup_modal{
+    display: none  !important;
+}
+@media(max-width:  450px){
+    .boba_login_card {
+        height: auto;
+        max-width: 310px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .boba_signin_title {
+        font-size: 24px;
+        margin: 16px 0px;
+    }
+    .boba_signin_sub_title {
+        width: 270px;    
+    }
+    .boba_signin_btn_start{
+       width: 100%;
+    }
+}
